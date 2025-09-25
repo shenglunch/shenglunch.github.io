@@ -41,7 +41,6 @@
 </head>
 <body class="font-sans text-gray-800 bg-gray-100">
     <div class="flex flex-col md:flex-row min-h-screen">
-        <!-- Left Sidebar - 调整为更宽的宽度，解决文字换行问题 -->
         <aside class="w-full md:w-1/4 bg-primary text-white p-6 md:p-8 shadow-lg z-10">
             <div class="flex flex-col items-center md:items-start">
                 <!-- Profile Picture -->
@@ -59,11 +58,15 @@
                 <div class="w-full space-y-4">
                     <div class="flex items-start">
                         <i class="fa fa-map-marker text-accent mt-1 mr-3 w-5 text-center"></i>
-                        <span>Singapore</span>
+                        <span>Dalian University of Technology (DLUT)</span>
                     </div>
                     <div class="flex items-start">
                         <i class="fa fa-envelope text-accent mt-1 mr-3 w-5 text-center"></i>
-                        <span>john.doe@nus.edu.sg</span>
+                        <span>shenglunch@gmail.com</span>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fa fa-envelope text-accent mt-1 mr-3 w-5 text-center"></i>
+                        <span>slchen@mail.dlut.edu.cn</span>
                     </div>
                     <div class="flex items-start">
                         <i class="fa fa-graduation-cap text-accent mt-1 mr-3 w-5 text-center"></i>
@@ -81,19 +84,19 @@
                     <ul class="space-y-2 text-gray-300">
                         <li class="flex items-start">
                             <i class="fa fa-circle text-xs text-accent mt-1.5 mr-2"></i>
-                            <span>3D Computer Vision</span>
+                            <span>Depth Completion</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fa fa-circle text-xs text-accent mt-1.5 mr-2"></i>
-                            <span>Deep Learning</span>
+                            <span>Stereo Matching</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-circle text-xs text-accent mt-1.5 mr-2"></i>
+                            <span>Reconstruction</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fa fa-circle text-xs text-accent mt-1.5 mr-2"></i>
                             <span>SLAM</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fa fa-circle text-xs text-accent mt-1.5 mr-2"></i>
-                            <span>Point Cloud Processing</span>
                         </li>
                     </ul>
                 </div>
@@ -147,21 +150,18 @@
                 <div class="space-y-6">
                     <!-- Publication 1 -->
                     <div class="bg-gray-50 p-5 rounded-lg hover:shadow-md transition-shadow">
-                        <h3 class="font-bold text-lg mb-2">PointTransformerV2: Improved Baselines with Vision Transformers for Point Clouds</h3>
+                        <h3 class="font-bold text-lg mb-2">Propagating Sparse Depth via Depth Foundation Model for Out-of-Distribution Depth Completion</h3>
                         <p class="text-gray-600 mb-2">
-                            <span class="font-medium">陈圣伦 (Shenglun Chen)</span>, Jane Smith, Gim Hee Lee
+                            <strong>Shenglun Chen</strong>, Xinzhu Ma, Hong Zhang, Haojie Li and Zhihui Wang
                         </p>
-                        <p class="text-accent mb-2">
-                            <i class="fa fa-file-text-o mr-1"></i> CVPR 2023
-                        </p>
-                        <p class="mb-3">
-                            This paper presents an improved version of PointTransformer with better performance on various 3D vision tasks.
+                        <p class="text-accent mb-3">
+                            <i class="fa fa-file-text-o mr-1"></i> TIP 2025
                         </p>
                         <div class="flex flex-wrap gap-2">
-                            <a href="#" class="text-sm bg-primary text-white px-3 py-1 rounded hover:bg-opacity-90 transition-colors">
+                            <a href="https://ieeexplore.ieee.org/document/11125857" class="text-sm bg-primary text-white px-3 py-1 rounded hover:bg-opacity-90 transition-colors" target="_blank">
                                 <i class="fa fa-link mr-1"></i> Paper
                             </a>
-                            <a href="#" class="text-sm bg-gray-200 text-gray-800 px-3 py-1 rounded hover:bg-gray-300 transition-colors">
+                            <a href="https://github.com/shenglunch/PSD" class="text-sm bg-gray-200 text-gray-800 px-3 py-1 rounded hover:bg-gray-300 transition-colors" target="_blank">
                                 <i class="fa fa-github mr-1"></i> Code
                             </a>
                         </div>
@@ -169,42 +169,36 @@
                     
                     <!-- Publication 2 -->
                     <div class="bg-gray-50 p-5 rounded-lg hover:shadow-md transition-shadow">
-                        <h3 class="font-bold text-lg mb-2">Dynamic Graph Convolutional Networks for 3D Shape Recognition</h3>
+                        <h3 class="font-bold text-lg mb-2">Real-Time Depth Completion with Multimodal Feature Alignment</h3>
                         <p class="text-gray-600 mb-2">
-                            <span class="font-medium">陈圣伦 (Shenglun Chen)</span>, Ming Liu, Gim Hee Lee
+                            <strong>Shenglun Chen</strong>, Xinzhu Ma, Hong Zhang, Haojie Li, Baoli Sun and Zhihui Wang
                         </p>
-                        <p class="text-accent mb-2">
-                            <i class="fa fa-file-text-o mr-1"></i> ECCV 2022
-                        </p>
-                        <p class="mb-3">
-                            We propose a dynamic graph convolutional network that adapts graph structures based on input features for better 3D shape recognition.
+                        <p class="text-accent mb-3">
+                            <i class="fa fa-file-text-o mr-1"></i> TNNLS 2025
                         </p>
                         <div class="flex flex-wrap gap-2">
-                            <a href="#" class="text-sm bg-primary text-white px-3 py-1 rounded hover:bg-opacity-90 transition-colors">
+                            <a href="https://ieeexplore.ieee.org/document/10950123" class="text-sm bg-primary text-white px-3 py-1 rounded hover:bg-opacity-90 transition-colors" target="_blank">
                                 <i class="fa fa-link mr-1"></i> Paper
-                            </a>
-                            <a href="#" class="text-sm bg-gray-200 text-gray-800 px-3 py-1 rounded hover:bg-gray-300 transition-colors">
-                                <i class="fa fa-github mr-1"></i> Code
                             </a>
                         </div>
                     </div>
                     
                     <!-- Publication 3 -->
                     <div class="bg-gray-50 p-5 rounded-lg hover:shadow-md transition-shadow">
-                        <h3 class="font-bold text-lg mb-2">Deep Learning for Point Cloud Registration: A Survey</h3>
+                        <h3 class="font-bold text-lg mb-2">Learning Pixel-wise Continuous Depth Representation via Clustering for Depth Completion</h3>
                         <p class="text-gray-600 mb-2">
-                            <span class="font-medium">陈圣伦 (Shenglun Chen)</span>, Xiaoming Wang, Ming Liu
+                            <strong>Shenglun Chen</strong>, Hong Zhang, Xinzhu Ma, Zhihui Wang and Haojie Li
                         </p>
-                        <p class="text-accent mb-2">
-                            <i class="fa fa-file-text-o mr-1"></i> TPAMI 2021
-                        </p>
-                        <p class="mb-3">
-                            A comprehensive survey of deep learning approaches for point cloud registration, including a detailed comparison and future directions.
+                        <p class="text-accent mb-3">
+                            <i class="fa fa-file-text-o mr-1"></i> TPAMI 2022
                         </p>
                         <div class="flex flex-wrap gap-2">
-                            <a href="#" class="text-sm bg-primary text-white px-3 py-1 rounded hover:bg-opacity-90 transition-colors">
+                            <a href="https://ieeexplore.ieee.org/document/10415465" class="text-sm bg-primary text-white px-3 py-1 rounded hover:bg-opacity-90 transition-colors" target="_blank">
                                 <i class="fa fa-link mr-1"></i> Paper
                             </a>
+                            <!-- <a href="https://github.com/shenglunch/CluDe" class="text-sm bg-gray-200 text-gray-800 px-3 py-1 rounded hover:bg-gray-300 transition-colors" target="_blank">
+                                <i class="fa fa-github mr-1"></i> Code
+                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -228,11 +222,11 @@
                             <i class="fa fa-book text-accent mr-2"></i> Journal Reviewer
                         </h3>
                         <ul class="space-y-2 pl-6 list-disc text-gray-700">
-                            <li>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li>
-                            <li>IEEE Transactions on Image Processing (TIP)</li>
-                            <li>IEEE Transactions on Visualization and Computer Graphics (TVCG)</li>
-                            <li>Computer Vision and Image Understanding (CVIU)</li>
-                            <li>Pattern Recognition</li>
+                            <!-- <li>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li> -->
+                            <!-- <li>IEEE Transactions on Image Processing (TIP)</li> -->
+                            <!-- <li>IEEE Transactions on Visualization and Computer Graphics (TVCG)</li> -->
+                            <li>IEEE Transactions On Circuits and Systems For Video Technology (TCSVT)</li>
+                            <li>IEEE Robotics and Automation Letters (RA-L)</li>
                         </ul>
                     </div>
                     
@@ -242,16 +236,16 @@
                             <i class="fa fa-users text-accent mr-2"></i> Conference Reviewer
                         </h3>
                         <ul class="space-y-2 pl-6 list-disc text-gray-700">
-                            <li>CVPR (2021, 2022, 2023)</li>
+                            <!-- <li>CVPR (2021, 2022, 2023)</li>
                             <li>ICCV (2021, 2023)</li>
-                            <li>ECCV (2020, 2022)</li>
-                            <li>NeurIPS (2021, 2022)</li>
-                            <li>ICML (2022)</li>
+                            <li>ECCV (2020, 2022)</li> -->
+                            <li>WACV (2023)</li>
+                            <li>MM Aisa (2024/2025)</li>
                         </ul>
                     </div>
                     
                     <!-- Program Committees -->
-                    <div>
+                    <!-- <div>
                         <h3 class="text-xl font-semibold mb-4 flex items-center">
                             <i class="fa fa-calendar-check-o text-accent mr-2"></i> Program Committee
                         </h3>
@@ -260,10 +254,10 @@
                             <li>3DV 2022</li>
                             <li>ICIP 2022</li>
                         </ul>
-                    </div>
+                    </div> -->
                     
                     <!-- Organizing Committees -->
-                    <div>
+                    <!-- <div>
                         <h3 class="text-xl font-semibold mb-4 flex items-center">
                             <i class="fa fa-cogs text-accent mr-2"></i> Organizing Committee
                         </h3>
@@ -271,7 +265,7 @@
                             <li>Workshop on 3D Vision for Robotics, CVPR 2023 (Co-organizer)</li>
                             <li>Singapore Computer Vision Workshop 2022 (Local Arrangements)</li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </section>
         </main>
